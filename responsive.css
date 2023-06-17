@@ -70,7 +70,8 @@
     display: block;
     width: 100%;
     height: 2px;
-    margin: 20px 0;
+    margin: 10px 0;
+
     background: #7cdacc;
   }
   
@@ -155,13 +156,8 @@
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     .card-client {
       width: 40%;
+      height: 50%;
     }
   }
   
-  /* Estilos para desktops */
-  @media only screen and (min-width: 769px) {
-    .card-client {
-      width: 20%;
-    }
-  }
-  
+ 
